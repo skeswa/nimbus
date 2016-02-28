@@ -1,0 +1,39 @@
+{
+  "name": "nimbus",
+  "version": "0.0.1",
+  "description": "Simple peer networking for browsers.",
+  "main": "web/dist/index.js",
+  "scripts": {
+    "web:test:manual": "./web/test/manual/build/start-testbench.sh",
+    "web:build": "./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skeswa/nimbus.git"
+  },
+  "keywords": [
+    "webrtc",
+    "peer",
+    "networking"
+  ],
+  "author": "Sandile Keswa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skeswa/nimbus/issues"
+  },
+  "homepage": "https://github.com/skeswa/nimbus#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.9.0",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-mocha": "^0.2.2",
+    "local-web-server": "^1.1.1",
+    "mocha": "^2.4.5",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.0",
+    "typescript": "^1.8.2",
+    "webpack": "^1.12.14"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./web/lib"
+  },
+  "files": [
+    "typings/browser.d.ts",
+    "web/src/nimbus.ts"
+  ]
+}
